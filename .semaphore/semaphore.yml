@@ -69,4 +69,4 @@ blocks:
           - echo 'Running tests'
 promotions:
     - name: Production deploy
-    pipeline_file: production-deploy.yml
+      pipeline_file: production-deploy.yml
