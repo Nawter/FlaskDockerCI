@@ -68,5 +68,5 @@ blocks:
         commands:
           - echo 'Running tests'
 promotions:
-    - name: Production deploy
-      pipeline_file: production-deploy.yml
+    - name: Deploy to Heroku 
+      pipeline_file: heroku.yml
